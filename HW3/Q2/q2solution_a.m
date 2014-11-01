@@ -48,6 +48,6 @@ w = [
     w(2), w(3), w(4);
 ]
 
-% compute k: w = 
+% compute k:
 k = inv(chol(w));
 k = k / k(3,3);
