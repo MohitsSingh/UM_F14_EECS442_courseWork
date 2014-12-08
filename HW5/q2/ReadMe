@@ -1,0 +1,11 @@
+Running vlfeat:
+To set-up the vlfeat library, run the following command. Make sure your current directory contains the vlfeat folder
+run('vlfeat/toolbox/vl_setup');
+To use the various functions available in vlfeat. Take a look at the m-file for the functions - they are well documented. Each function has specific input types it accepts. Make sure you pass the parameters accordingly.
+
+Image I/O:
+Adapt the readDir.m script in the scripts folder to read multiple images in a directory quickly
+
+Datasets:
+There are two datasets: faces and cars. Each folder has 90 images. As described in the assignment handout, the first 40 will be used for training while the remaining 50 will be used for testing.
+
